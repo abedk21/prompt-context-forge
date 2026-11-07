@@ -1,0 +1,10 @@
+[project]
+name = "prompt-context-forge"
+version = "0.1.0"
+description = "Budgeted, access-filtered context assembly with deterministic evidence selection"
+requires-python = ">=3.11"
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+packages = ["context_forge"]
